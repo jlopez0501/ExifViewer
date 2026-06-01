@@ -19,6 +19,13 @@ used in a specific shoot.
 
 3. Add the script to your PATH and create an `exif` alias for your OS
 
+## Shebang Line
+
+The shebang line is set to `#!/usr/bin/env python3` by default, which uses
+your system Python. If you have the `exif` package installed in a virtual
+environment, you will need to update the shebang line to point to your
+virtual environment's Python executable instead.
+
 ## Usage
 
 View all EXIF attributes:
