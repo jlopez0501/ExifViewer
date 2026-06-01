@@ -1,0 +1,5 @@
+# Ignore sensitive credential files
+.venv
+
+# Ignore Python cache data
+__pycache__
